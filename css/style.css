@@ -17,6 +17,20 @@ img{
 a{
     text-decoration: none;
 }
+header{
+ border-bottom: 1px solid #e7e9fc;
+}
+.header{
+   display: flex;
+   width: 1158px;
+   margin: 0 auto;
+   padding: 0 15px 0 15px;
+}
+.nav{
+   display: flex;
+   align-items: center;
+
+}
  .nav-logo{
     font-family: "Raleway",sans-serif;
     font-weight: 700;
@@ -26,11 +40,14 @@ a{
     text-transform: uppercase;
     text-decoration: none;
     color:#4d5ae5;
+    margin-right: 76px;
  }
  .nav-logo-studio{
     color: #2e2f42;
  }
  .nav-list{
+   display: flex;
+   gap: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
