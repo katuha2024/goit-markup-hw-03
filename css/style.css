@@ -31,6 +31,11 @@ header{
    align-items: center;
 
 }
+.nav-list-menu{
+   display: flex;
+   gap: 40px;
+   padding: 24p 0 24px;
+}
  .nav-logo{
     font-family: "Raleway",sans-serif;
     font-weight: 700;
@@ -67,6 +72,8 @@ header{
     color: #434455;
  }
  .address-list{
+   display: flex;
+   gap: 40px;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
