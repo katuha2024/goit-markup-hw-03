@@ -155,6 +155,8 @@ a{
  }
  .footer{
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
  }
  .footer-logo{
    font-family: "Raleway",sans-serif;
@@ -163,12 +165,15 @@ a{
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
+   display: inline-block;
+   margin-bottom: 16px;
    color: #4d5ae5;
  }
  .footer-logo-studio{
    color: #f4f4fd;
  }
  .footer-text{
+   min-width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
