@@ -114,21 +114,22 @@ header{
    color: #ffffff;
    background-color:#404bbf; ;
  }
- .button:hover,{
-   background-color: #4d5ae5;
+ .button:hover{
+   background-color:#4d5ae5;
  }
 .section-two{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    padding: 188px 0 188px;
+    padding: 120pxpx 0 120px;
 }
 .section-two-h{
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
+   
 }
 .section-two-text{
    max-width: 496px;
