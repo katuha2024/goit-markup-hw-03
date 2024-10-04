@@ -114,9 +114,8 @@ header{
    color: #ffffff;
    background-color:#404bbf; ;
  }
- .button:hover,
- .button:focus{
-   background-color: #4d5ae5;;
+ .button:hover,{
+   background-color: #4d5ae5;
  }
 .section-two{
     font-weight: 500;
