@@ -85,10 +85,12 @@ header{
    color: #404bbf;
  }
  .section-one{
+   padding: 188px 0 188px 0;
     background-color: #2e2f42;
     color: #fff;
  }
- .section-one-text{
+ .section-one-h{
+   max-width: 496px;
    font-size: 56px;
    line-height: 1.07;
    text-align: center;
