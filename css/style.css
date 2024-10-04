@@ -112,10 +112,11 @@ header{
    letter-spacing: 0.04em;
    cursor: pointer;
    color: #ffffff;
+   background-color:#404bbf; ;
  }
- .section-one-button:hover,
- .section-one-button:focus{
-   background-color: #404BBF;
+ .button:hover,
+ .button:focus{
+   background-color: #4d5ae5;;
  }
 .section-two{
     font-weight: 500;
