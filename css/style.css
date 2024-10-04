@@ -95,6 +95,9 @@ header{
    letter-spacing: 0.02em;
    color: #ffffff;
  }
+ :root{
+   --button-bg-color: #4d5ae5;
+ }
  .button{
    display: block;
    min-width: 169px;
@@ -106,7 +109,7 @@ header{
    line-height: 1.5;
    letter-spacing: 0.04em;
    cursor: pointer;
-   background-color: rav#4D5AE5 ;
+   background-color: rav (--button-bg-color);
    color: #ffffff;
  }
  .section-one-button:hover,
