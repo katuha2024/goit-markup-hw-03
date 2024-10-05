@@ -121,12 +121,19 @@ a{
     color: #2e2f42;
     padding: 120px 0 120px;
 }
-.visually-hidden{
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
-}
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+   padding: 0;
+   white-space: nowrap;
+    clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+overflow: hidden;
+      }
+
 .section-two-link{
    display: flex;
    gap: 24px;
@@ -164,7 +171,6 @@ flex-basis: calc((100%-3*24px)/4);
    gap: 24px;
    width: calc((100% - 3 * 24px) / 4);
    border-radius: 0px 0px 4px 4px;
-
    background-color: #ffffff;
 }
 .name{
