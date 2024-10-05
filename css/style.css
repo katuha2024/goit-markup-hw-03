@@ -180,7 +180,7 @@ flex-basis: calc((100% - 72px) / 4)
 .name{
    padding: 32px 0 32px;
 }
-.our-team-h3{
+.name-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
