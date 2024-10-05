@@ -179,7 +179,7 @@ flex-basis: calc((100%-3*24px)/4);
 .name{
    padding: 32px 0 32px;
 }
-.name-h3{
+.our-team-h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -208,6 +208,13 @@ flex-basis: calc((100%-3*24px)/4);
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+   margin-bottom: 72px;
+ }
+ .portfolio-link{
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 24px;
+   row-gap: 48px;
  }
  .portfolio-h{
     font-weight: 500;
