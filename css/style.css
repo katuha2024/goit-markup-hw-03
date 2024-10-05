@@ -140,7 +140,7 @@ overflow: hidden;
    padding: 0;
 }
 .section-two-item{
-flex-basis: calc((100%-3*24px)/4);
+flex-basis: calc((100% - 72px) / 4)
 }
 .section-two-h{
    margin-bottom: 8px;
