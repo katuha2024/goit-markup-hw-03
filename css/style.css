@@ -17,26 +17,23 @@ img{
 a{
     text-decoration: none;
 }
-header{
- border-bottom: 1px solid #e7e9fc;
-}
 .header{
+   border-bottom: 1px solid #e7e9fc;
    display: flex;
    width: 1158px;
    margin: 0 auto;
    padding: 0 15px 0 15px;
 }
-.nav{
+.header-nav{
    display: flex;
    align-items: center;
-
 }
 .nav-list-menu{
    display: flex;
    gap: 40px;
    padding: 24p 0 24px;
 }
- .nav-logo{
+ .header-nav-logo{
     font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -50,7 +47,7 @@ header{
  .nav-logo-studio{
     color: #2e2f42;
  }
- .nav-list{
+ .nav-list-menu{
    display: flex;
    gap: 40px;
     font-weight: 500;
