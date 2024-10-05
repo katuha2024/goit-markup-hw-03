@@ -34,6 +34,10 @@ a{
    justify-content: space-between;
    align-items: center;
 }
+.header-page{
+   display: flex;
+   width: 1158px;
+}
 .header-nav{
    display: flex;
    align-items: center;
@@ -41,7 +45,7 @@ a{
 .nav-list-menu{
    display: flex;
    gap: 40px;
-   padding: 24p 0 24px;
+   padding: 24px 0 24px;
 }
  .header-nav-logo{
     font-family: "Raleway",sans-serif;
