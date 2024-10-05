@@ -25,18 +25,13 @@ a{
    padding: 0 15px 0 15px;
 }
 .container {
-   max-width: 1158px;
-   margin: 0 auto;
-   padding: 0 15px;
+   width: 1158px;
 }
 .main-header.container{
    display: flex;
-   justify-content: space-between;
-   align-items: center;
 }
 .header-page{
    display: flex;
-   width: 1158px;
 }
 .header-nav{
    display: flex;
