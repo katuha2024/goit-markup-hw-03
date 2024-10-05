@@ -131,7 +131,7 @@ a{
    display: flex;
    gap: 24px;
 }
-.section-two-list{
+.section-two-li{
 flex-basis: calc((100%-3*24px)/4);
 }
 .section-two-h{
@@ -156,16 +156,28 @@ flex-basis: calc((100%-3*24px)/4);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
     color: #2e2f42;
 }
 .our-team-list{
+   display: flex;
+   gap: 24px;
+   width: calc((100% - 3 * 24px) / 4);
+   border-radius: 0px 0px 4px 4px;
+
    background-color: #ffffff;
 }
-.our-team-etem{
+.name{
+   padding: 32px 0 32px;
+
+}
+.our-team-h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
     color: #2e2f42;
 }
 .our-team-text{
@@ -173,6 +185,7 @@ flex-basis: calc((100%-3*24px)/4);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #434455;
 }
 .portfolio{
