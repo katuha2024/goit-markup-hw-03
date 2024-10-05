@@ -137,8 +137,9 @@ overflow: hidden;
 .section-two-link{
    display: flex;
    gap: 24px;
+   padding: 0;
 }
-.section-two-list-li{
+.section-two-item{
 flex-basis: calc((100%-3*24px)/4);
 }
 .section-two-h{
