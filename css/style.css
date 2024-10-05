@@ -119,7 +119,7 @@ a{
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    padding: 120pxpx 0 120px;
+    padding: 120px 0 120px;
 }
 .visually-hidden{
    font-weight: 500;
@@ -132,7 +132,7 @@ a{
    gap: 24px;
 }
 .section-two-list{
-   width: calc((100% - 72px) / 4);
+flex-basis: calc((100%-3*24px)/4);
 }
 .section-two-h{
    margin-bottom: 8px;
