@@ -74,6 +74,7 @@ a{
    color: #404bbf;
  }
  .address{
+   display: flex;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -85,7 +86,7 @@ a{
    display: flex;
    gap: 40px;
  }
- .address-list{
+ .address-item{
    display: flex;
    font-weight: 500;
    font-size: 16px;
@@ -93,8 +94,8 @@ a{
    letter-spacing: 0.02em;
    color:#434455;
  }
- .address-list:hover,
- .address-list:focus{
+ .address-item:hover,
+ .address-item:focus{
    color: #404bbf;
  }
  .section-one{
