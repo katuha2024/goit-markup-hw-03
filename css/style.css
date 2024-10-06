@@ -95,7 +95,7 @@ a{
     background-color: #2e2f42;
     color: #fff;
  }
- .section-one-h{
+ .section-one-title{
    max-width: 496px;
    font-size: 56px;
    line-height: 1.07;
@@ -117,6 +117,7 @@ a{
    color: #ffffff;
    background-color:#404bbf; 
    background: #4d5ae5;
+   text-align: center;
  }
  .button:hover{
    background-color:#4d5ae5;
