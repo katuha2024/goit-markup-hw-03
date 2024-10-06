@@ -17,7 +17,7 @@ img{
 a{
     text-decoration: none;
 }
-header{
+.header{
    border-bottom: 1px solid #e7e9fc;
 }
 .container {
@@ -25,7 +25,7 @@ header{
    margin: 0 auto;
    padding: 0 15px;
 }
-header.container{
+.header.container{
    display: flex;
    justify-content: space-between;
 }
