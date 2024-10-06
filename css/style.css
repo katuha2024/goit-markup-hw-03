@@ -81,9 +81,12 @@ a{
    font-style: normal;
     color: #434455;
  }
- .address-list{
+ .address-link{
    display: flex;
    gap: 40px;
+ }
+ .address-list{
+   display: flex;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
