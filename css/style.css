@@ -54,6 +54,8 @@ a{
  .nav-link{
    display: flex;
    gap: 40px;
+ }
+ .nav-list{
    padding: 24px 0 24px;
  }
  .nav-item-menu{
