@@ -17,23 +17,17 @@ img{
 a{
     text-decoration: none;
 }
-.main-header{
+header{
    border-bottom: 1px solid #e7e9fc;
-   display: flex;
-   width: 1158px;
-   margin: 0 auto;
-   padding: 0 15px 0 15px;
 }
 .container {
    width: 1158px;
    margin: 0 auto;
    padding: 0 15px;
 }
-.main-header.container{
+header.container{
    display: flex;
-}
-.header-page{
-   display: flex;
+   justify-content: space-between;
 }
 .header-nav{
    display: flex;
