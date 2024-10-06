@@ -229,7 +229,7 @@ flex-basis: calc((100% - 72px) / 4)
  .portfolio-item{
    width: calc((100% - 48px) / 3);
  }
- .portfolio-h{
+ .profi-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
