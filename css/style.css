@@ -91,6 +91,7 @@ a{
  }
  .address-a{
    display: block;
+   color: #2e2f42;
  }
  .address-link{
    display: flex;
@@ -106,7 +107,7 @@ a{
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color:#434455;
+   color:#2e2f42;
  }
  .address-item:hover,
  .address-item:focus{
@@ -116,6 +117,7 @@ a{
    padding: 0;
     background-color: #2e2f42;
     color: #fff;
+    padding: 188px 0;
  }
  .section-one-title{
    max-width: 496px;
@@ -195,6 +197,7 @@ flex-basis: calc((100% - 72px) / 4)
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-top: 0;
     margin-bottom: 72px;
     color: #2e2f42;
     margin: 0;
