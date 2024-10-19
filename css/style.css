@@ -33,7 +33,6 @@ margin-right: 0;
 display: flex;
 text-align: center;
 justify-content: center;
-padding: 24px 0;
 }
 .header-nav{
    display: flex;
@@ -54,7 +53,6 @@ padding: 24px 0;
     text-transform: uppercase;
     text-decoration: none;
     color:#4d5ae5;
-    margin-right: 76px;
  }
  .nav-logo-studio{
     color: #2e2f42;
@@ -82,15 +80,9 @@ padding: 24px 0;
    color: #404bbf;
  }
  .container-address{
-   display: flex;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-   letter-spacing: 0.02em;
-   font-style: normal;
-    color: #2e2f42;
-    align-items: center;
-    justify-content: flex-end;
+display: flex;
+align-items: center;
+gap: 20px;
  }
  .address-a{
    display: block;
