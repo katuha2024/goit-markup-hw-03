@@ -47,14 +47,17 @@ align-items: center;
 justify-content: space-between;
 margin-right:156px;
 margin-left: 156px;
-padding: 0;
 }
 .nav{
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
- .nav-logo-web{
+.header-logo{
+   padding: 24px 0;
+   margin-right: 76px;
+}
+ .logo{
     font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -63,17 +66,18 @@ padding: 0;
     text-transform: uppercase;
     text-decoration: none;
     color:#4d5ae5;
-    margin-right:76px ;
  }
- .nav-logo-studio{
+ .logo-studio{
     color: #2e2f42;
  }
  .nav-link{
-   display: flex;
-   gap: 40px;
-   padding: 0;
+display: flex;
+text-align: center;
+gap: 40px;
  }
  .nav-list{
+   padding: 24px 0;
+   display: block;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -94,7 +98,13 @@ gap: 40px;
  .nav-list:focus{
    color: #404bbf;
  }
+ .address-page{
+   font-style: normal;
+   margin-left: auto;
+ }
  .address-a{
+   padding: 24px 0;
+   display: block;
    display: flex;
    color: #434455;
  }
@@ -103,7 +113,13 @@ gap: 40px;
    gap: 40px;
    margin:0;
    padding: 0;
+   color: #2e2f42;
  }
+.address-a:hover,
+.address-a:focus {
+   color: #404bbf;
+}
+
  .address-item{
    display: flex;
    text-align: center;
@@ -112,24 +128,22 @@ gap: 40px;
    line-height: 1.5;
    letter-spacing: 0.02em;
  }
- .address-item:hover,
- .address-item:focus{
-   color: #404bbf;
- }
+ 
  .section-one{
-   padding: 0;
     background-color: #2e2f42;
-    color: #fff;
     padding: 188px 0;
  }
  .section-one-title{
    max-width: 496px;
    font-size: 56px;
+   font-weight: 700;
    line-height: 1.07;
    text-align: center;
    letter-spacing: 0.02em;
-   color: #ffffff;
-   margin: 0;
+   color: #fff;
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 48px;
  }
  .button{
    display: block;
@@ -144,8 +158,9 @@ gap: 40px;
    cursor: pointer;
    color: #ffffff;
    background-color:#404bbf; 
-   background: #4d5ae5;
-   text-align: center;
+   margin: 0 auto;
+   display: block;
+
  }
  .button:hover{
    background-color:#4d5ae5;
