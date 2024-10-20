@@ -7,6 +7,11 @@ line-height: 1.5;
 }
 ul{
    list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+.section{
+   padding: 120px 0;
 }
 img{
    display: block;
@@ -16,6 +21,11 @@ a{
 }
 .header{
    border-bottom: 1px solid #e7e9fc;
+}
+.container{
+   max-width: 1156px;
+   padding: 0 15px;
+      margin: 0 auto;
 }
  .header-container{
 display: flex;
