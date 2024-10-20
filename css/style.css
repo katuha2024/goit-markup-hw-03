@@ -19,7 +19,7 @@ a{
 }
  .header-container{
 display: flex;
-text-align: center;
+align-items: center;
 justify-content: space-between;
 max-width: 1158px;
 }
@@ -47,10 +47,14 @@ max-width: 1158px;
    padding: 0;
  }
  .nav-list{
-display: flex;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+display: block;
 gap: 40px;
-   margin-left: auto;
-   color: #2e2f42;
+ margin-left: auto
  }
  .nav-item-menu{
     font-weight: 500;
