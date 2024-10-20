@@ -45,8 +45,6 @@ a{
 display: flex;
 align-items: center;
 justify-content: space-between;
-margin-right:156px;
-margin-left: 156px;
 }
 .nav{
    display: flex;
