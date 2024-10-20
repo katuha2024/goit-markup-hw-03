@@ -17,16 +17,13 @@ a{
 .header{
    border-bottom: 1px solid #e7e9fc;
 }
-.container {
-width: 100%;
-}
  .header-container{
 display: flex;
 text-align: center;
 justify-content: space-between;
-max-width: 1440px;
+max-width: 1158px;
 }
-.header-nav{
+.nav{
    display: flex;
    align-items: center;
    justify-content: space-between;
