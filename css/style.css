@@ -103,8 +103,12 @@ gap: 40px;
  .address-a{
    padding: 24px 0;
    display: block;
-   display: flex;
    color: #434455;
+   text-align: center;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
  }
  .address-link{
    display: flex;
@@ -117,15 +121,6 @@ gap: 40px;
 .address-a:focus {
    color: #404bbf;
 }
-
- .address-item{
-   display: flex;
-   text-align: center;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
- }
  
  .section-one{
     background-color: #2e2f42;
